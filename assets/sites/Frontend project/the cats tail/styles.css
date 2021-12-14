@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(rgb(23, 68, 94), rgb(198, 203, 226), rgb(31, 30, 30) );
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0, 0.4);
+    
+}
+.logo{
+    width: 140px;
+    height: 80px;
+    padding: 20px  100px;
+}
+.navbar h4{
+    color: azure;
+    padding-left: 20px;
+    font-family: 'Brush Script MT', cursive ;
+    bottom: 5px;
+    user-select: none;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto',sans-serif;
+    transition: .4s;
+}
+.navbar ul li a .active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+}
+.d1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    max-width: 100%;
+}
+.img{
+    flex-basis: 80%;
+    padding-left: 70px;
+}
+.txt{
+    font-size: 20px;
+    padding-left: 60px;
+    user-select: none;
+}
+.txt h1{
+    font-weight: 500;    
+}
+.txt p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.d2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img2{
+    flex-basis: 20%;
+    
+}
+.txt2{
+    font-size: 20px;
+    padding-right: 20px;
+    user-select: none;
+}
+.txt2 p{
+    font-weight: 500;
+    padding-right: 30px;
+}
+.d2 .buttons{
+    margin: 35px 28px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: azure;
+    background: rgb(54, 93, 126);
+    border: 1px solid #ac54d4;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+button a{
+    text-decoration: none;
+    color: azure;
+}
+
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.d3{
+    background: black;
+    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+}
+.d31 p{
+    padding: 10px 0 0 30px;
+    
+}
+.d31 textarea{    
+    margin-left: 20px;
+}
+
+.btn2{
+    padding: 20px;
+}
+.d32{
+    color: azure;
+    padding-left: 50px;
+}
+.d32 ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+.d33{
+    display: inline-block;
+}
+.d33 ul li{
+    list-style: none;
+    padding-left: 50px;
+    display: inline-block;
+    padding-top: 50px;
+    user-select: none;
+}

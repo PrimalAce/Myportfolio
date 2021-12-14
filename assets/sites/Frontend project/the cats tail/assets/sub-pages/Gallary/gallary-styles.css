@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+.d1{
+    height:100%;
+    padding-top: 3px;
+    background: linear-gradient( rgba(23, 64, 97, 0.842), rgb(198, 203, 226));
+}
+.txt{
+    display: flex;
+    justify-content: center;
+}
+.txt h1{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 70px;
+}
+.txt2 h4{
+    font-family: sans-serif;
+    text-align: center;
+}
