@@ -19,8 +19,8 @@
 .navbar h4{
     color: azure;
     padding-left: 20px;
-    font-family: 'Brush Script MT', cursive ;
-    bottom: 5px;
+    font-family: 'Brush Script MT', cursive;
+    bottom: 10px;
     user-select: none;
 }
 .navbar ul{
